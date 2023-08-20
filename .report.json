@@ -1,0 +1,91 @@
+{
+    "created": 1664713067.4088576,
+    "duration": 0.12816214561462402,
+    "exitcode": 0,
+    "root": "/home/aaditya.singh/Code/314e/piplup",
+    "environment": {
+        "Python": "3.9.13",
+        "Platform": "Linux-5.15.0-48-generic-x86_64-with-glibc2.35",
+        "Packages": {
+            "pytest": "7.1.3",
+            "py": "1.11.0",
+            "pluggy": "1.0.0"
+        },
+        "Plugins": {
+            "json-report": "1.5.0",
+            "xdist": "2.5.0",
+            "metadata": "2.0.2",
+            "forked": "1.4.0"
+        }
+    },
+    "summary": {
+        "total": 0,
+        "collected": 2
+    },
+    "collectors": [
+        {
+            "nodeid": "",
+            "outcome": "passed",
+            "result": [
+                {
+                    "nodeid": "__init__.py",
+                    "type": "Package"
+                },
+                {
+                    "nodeid": "src/__init__.py",
+                    "type": "Package"
+                },
+                {
+                    "nodeid": "tests/__init__.py",
+                    "type": "Package"
+                },
+                {
+                    "nodeid": "tests/intro/__init__.py",
+                    "type": "Package"
+                }
+            ]
+        },
+        {
+            "nodeid": "__init__.py",
+            "outcome": "passed",
+            "result": []
+        },
+        {
+            "nodeid": "src/__init__.py",
+            "outcome": "passed",
+            "result": []
+        },
+        {
+            "nodeid": "tests/__init__.py",
+            "outcome": "passed",
+            "result": []
+        },
+        {
+            "nodeid": "tests/intro/test_intro_1.py",
+            "outcome": "passed",
+            "result": [
+                {
+                    "nodeid": "tests/intro/test_intro_1.py::test_double_array",
+                    "type": "Function",
+                    "lineno": 15
+                },
+                {
+                    "nodeid": "tests/intro/test_intro_1.py::test_double_array_inject",
+                    "type": "Function",
+                    "lineno": 21
+                }
+            ]
+        },
+        {
+            "nodeid": "tests/intro/__init__.py",
+            "outcome": "passed",
+            "result": [
+                {
+                    "nodeid": "tests/intro/test_intro_1.py",
+                    "type": "Module"
+                }
+            ]
+        }
+    ],
+    "tests": []
+}
